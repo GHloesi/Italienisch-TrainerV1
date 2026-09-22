@@ -616,7 +616,7 @@
 
     function updatePromptPreview() {
       if (!currentItem) return;
-      const prompt = `Erstelle einen natürlichen italienischen Beispielsatz mit deutscher Übersetzung für ID ${currentItem.id} ("${currentItem.italiano}" = "${currentItem.tedesco}"). Antworte AUSSCHLIESSLICH mit diesem JSON-Format:
+      const prompt = `Erstelle einen kurzen italienischen Beispielsatz zum Vokabelmerken mit deutscher Übersetzung für ID ${currentItem.id} ("${currentItem.italiano}" = "${currentItem.tedesco}"). Antworte AUSSCHLIESSLICH mit diesem JSON-Format:
 {
   "id": ${currentItem.id},
   "ex_it": "...",
