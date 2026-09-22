@@ -635,7 +635,7 @@
     function copyPromptForId(id) {
       const item = vocabList.find(v => v.id === id);
       if (!item) return;
-      const prompt = `Erstelle einen natürlichen italienischen Beispielsatz mit deutscher Übersetzung für ID ${item.id} ("${item.italiano}" = "${item.tedesco}"). Antworte AUSSCHLIESSLICH mit diesem JSON-Format:
+      const prompt = `Erstelle einen einfachen italienischen Beispielsatz zum Vokabelnmerken mit deutscher Übersetzung für ID ${item.id} ("${item.italiano}" = "${item.tedesco}"). Antworte AUSSCHLIESSLICH mit diesem JSON-Format:
 {
   "id": ${item.id},
   "ex_it": "...",
